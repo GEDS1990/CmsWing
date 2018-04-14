@@ -11,7 +11,7 @@
 	<title>{{controller.meta_title}}| {{config.setup.WEB_SITE_TITLE}}</title>
 	<meta name="keywords" content="{{controller.keywords}}" />
 	<meta name="description" content="{{controller.description}}" />
-	<meta name="Author" content="Arterli [www.cmswing.com]" />
+	<meta name="Author" content="gedonshen [www.shzhyun.com]" />
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 	<!-- mobile settings -->
 	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
@@ -124,11 +124,11 @@
 				<ul class="nav nav-pills">
 					<li class="active"><a href="/">网站首页</a></li>
 					<li><a href="/about.html">关于我们</a></li>
-					<li><a href="/documentation">二次开发</a></li>
-					<li><a href="/donate.html">捐助我们</a></li>
+					<!-- <li><a href="/documentation">二次开发</a></li> -->
+					<!-- <li><a href="/donate.html">捐助我们</a></li>
 					<li><a href="/disclaimer.html">免责声明</a></li>
-					<li><a href="/licence.html">授权协议</a></li>
-					<li><a href="/contribute.html">贡献者名单</a></li>
+					<li><a href="/licence.html">授权协议</a></li> -->
+					<!-- <li><a href="/contribute.html">贡献者名单</a></li> -->
 				</ul>
 				{#<div class="row">
 
@@ -140,15 +140,15 @@
 						<address>
 								<ul class="list-unstyled">
 									<li class="footer-sprite address">
-										中国 陕西
-										西安雁塔区高新路
-										望庭国际1号楼2单元24层
+										中国 江苏
+										昆山市开发区
+										国际1号楼
 									</li>
-									<!--<li class="footer-sprite phone">-->
-										<!--电话: 86-029-88365435-->
-									<!--</li>-->
+									<li class="footer-sprite phone">
+										电话: 15350358189
+									</li>
 									<li class="footer-sprite email">
-										<a href="mailto:arterli@cmswing.com">arterli@cmswing.com</a>
+										<a href="mailto:gedonshen@163.com">gedonshen@163.com</a>
 									</li>
 								</ul>
 							</address>
@@ -159,8 +159,13 @@
 					<div class="col-md-3">
 
 						<!-- Latest Blog Post -->
-						<h4 class="letter-spacing-1">功能更新</h4>
+						<h4 class="letter-spacing-1">产品更新</h4>
 						<ul class="footer-posts list-unstyled">
+							<li><a href="/">大数据</a></li>
+							<li><a href="/about.html">人工智能</a></li>
+							<li><a href="/about.html">云计算</a></li>
+						</ul>
+						<!-- <ul class="footer-posts list-unstyled">
 							{% topic data = "data",limit= "3",cid="118"%}
 							{%for t in data%}
 							<li>
@@ -168,7 +173,7 @@
 								<small>{{t.update_time|moment('lll')}}</small>
 							</li>
 							{%endfor%}
-						</ul>
+						</ul> -->
 						<!-- /Latest Blog Post -->
 
 					</div>
@@ -180,11 +185,11 @@
 						<ul class="footer-links list-unstyled">
 							<li><a href="/">网站首页</a></li>
 							<li><a href="/about.html">关于我们</a></li>
-							<li><a href="/documentation">二次开发</a></li>
-							<li><a href="/donate.html">捐助我们</a></li>
-							<li><a href="/disclaimer.html">免责声明</a></li>
-							<li><a href="/licence.html">授权协议</a></li>
-							<li><a href="/contribute.html">贡献者名单</a></li>
+							<!-- <li><a href="/documentation">二次开发</a></li> -->
+							<!-- <li><a href="/donate.html">捐助我们</a></li> -->
+							<!-- <li><a href="/disclaimer.html">免责声明</a></li> -->
+							<!-- <li><a href="/licence.html">授权协议</a></li> -->
+							<!-- <li><a href="/contribute.html">贡献者名单</a></li> -->
 						</ul>
 						<!-- /Links -->
 
@@ -251,8 +256,8 @@
 						<li>&bull;</li>
 						<li><a href="#">隐私</a></li>
 					</ul>
-					&copy; 2015 - <script>document.write(new Date().getFullYear())</script> cmswing.com  版权所有 <!--{{config.setup.WEB_SITE_TITLE}}--> <a href="http://www.miitbeian.gov.cn/" target="_blank">{{config.setup.WEB_SITE_ICP}}</a>
-					<code> Powered by <strong><a href="https://www.cmswing.com" target="_blank">{{ctx.cmswing.name}}</a></strong> {{ctx.cmswing.version}}</code>
+					&copy; 2015 - <script>document.write(new Date().getFullYear())</script> shzhyun.com  版权所有 <!--{{config.setup.WEB_SITE_TITLE}}--> <a href="http://www.miitbeian.gov.cn/" target="_blank">{{config.setup.WEB_SITE_ICP}}</a>
+					<code> Powered by <strong><a href="https://www.shzhyun.com" target="_blank">{{ctx.cmswing.name}}</a></strong> {{ctx.cmswing.version}}</code>
 				</div>
 			</div>
 		</footer>
